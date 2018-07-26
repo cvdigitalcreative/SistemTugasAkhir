@@ -174,6 +174,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <th>Nama Mahasiswa</th>
                   <th>Nomor Induk Mahasiswa</th>
                   <th>Judul Tugas Akhir</th>
+                  <th>Laporan</th>
                   <th>Action</th>
                 </tr>
                   <tbody>
@@ -182,6 +183,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <td><?php echo $row->nama;?></td>
                           <td><?php echo $row->nim;?></td>
                           <td><?php echo $row->judul_tugas_akhir;?></td>
+                           <td>
+                              <a href="<?php echo base_url().'berkasproposal/'.$row->nim.'/'.$row->berkas_proposal;?>" target="_blank"> <button type="button" class="btn  btn-warning"><?php echo $row->berkas_proposal;?></button> </a>
+                          </td>
                           <td>
                             <?php echo form_open('Admin/seminarproposaltodatabase'); ?>
                               <input type="hidden" name="id_tugas_akhir" value="<?php echo $row->id;?>">

@@ -163,7 +163,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="content">
       <div class="row">
         <div class="col-xs-12">
+           <p><strong>Catatan:</strong> Menghasilkan lulusan yang mempunyai landasan kepribadian beriman dan bertaqwa kepada Tuhan yang maha esa, bertanggung jawab, memiliki integritas ilmiah, jujur, berbudi pekerti dan berkepribadian yang luhur, berjiwa teladan dan memiliki motivasi dan kesadaran untuk terus meningkatkan kompetensi dan kapasitasnya di bidang teknologi informasi. Hasil pendidikan juga diharapkan mampu memahami dan menguasai pendekatan, metode, kaidah ilmiah serta keterampilan dan penerapannya dalam menyelesaikan masalah-masalah yang terkait dengan manajemen informatika.</p>
           
+          <img src="<?php echo base_url(); ?>gambar/infografis-skripsi.jpg" alt="infografis skripsi" height="420" width="1300" align="middle">
         </div>
       </div>
     </section>
